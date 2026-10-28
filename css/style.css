@@ -230,20 +230,13 @@ code {
   display: flex;
   align-items: center;
   justify-content: center;
-  gap: 48px;
+  gap: 24px 36px;
   flex-wrap: wrap;
   color: var(--text-dim);
   opacity: 0.65;
   filter: grayscale(1);
 }
-.logo-item {
-  display: flex;
-  align-items: center;
-  gap: 8px;
-  font-size: 1.05rem;
-  font-weight: 600;
-}
-.logo-item svg { width: 20px; height: 20px; flex-shrink: 0; }
+.logo-item { height: 24px; width: auto; display: block; }
 
 /* Section headings */
 .section-title {
