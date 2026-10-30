@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="256" height="256" viewBox="0 0 256 256" fill="none">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="256" y2="256" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#EEF0FF"/>
+      <stop offset="1" stop-color="#FDEEF4"/>
+    </linearGradient>
+    <linearGradient id="sweep" x1="128" y1="52" x2="200" y2="136" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#5B5EF4" stop-opacity="0.55"/>
+      <stop offset="1" stop-color="#5B5EF4" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+  <rect width="256" height="256" rx="56" fill="url(#bg)"/>
+  <!-- radar rings -->
+  <circle cx="128" cy="132" r="84" fill="#FFFFFF" stroke="#5B5EF4" stroke-opacity="0.25" stroke-width="3"/>
+  <circle cx="128" cy="132" r="58" stroke="#5B5EF4" stroke-opacity="0.25" stroke-width="3"/>
+  <circle cx="128" cy="132" r="32" stroke="#5B5EF4" stroke-opacity="0.25" stroke-width="3"/>
+  <path d="M128 48v168M44 132h168" stroke="#5B5EF4" stroke-opacity="0.15" stroke-width="3"/>
+  <!-- sweep -->
+  <path d="M128 132 L128 48 A84 84 0 0 1 200.7 90 Z" fill="url(#sweep)"/>
+  <path d="M128 132 L200.7 90" stroke="#5B5EF4" stroke-width="5" stroke-linecap="round"/>
+  <circle cx="128" cy="132" r="8" fill="#0A2540"/>
+  <!-- detected threat -->
+  <circle cx="168" cy="96" r="20" fill="#FF5C93" fill-opacity="0.2"/>
+  <circle cx="168" cy="96" r="9" fill="#FF5C93"/>
+  <circle cx="86" cy="168" r="6" fill="#5B5EF4" fill-opacity="0.45"/>
+  <!-- speed badge -->
+  <circle cx="194" cy="196" r="34" fill="#0A2540"/>
+  <path d="M199 172 L181 199 H194 L189 220 L208 192 H195 Z" fill="#FFFFFF" stroke="#FFFFFF" stroke-width="3" stroke-linejoin="round"/>
+</svg>
